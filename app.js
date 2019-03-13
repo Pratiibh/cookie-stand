@@ -249,8 +249,8 @@ alki.renderSales = function () {
         list_element.textContent = totalSum + ' Total Cookies!';
         unordered_list.appendChild(list_element);
     }
-
-    }
+    
+}
 
 }
 
@@ -274,3 +274,18 @@ console.log(seaTacAirport);
 console.log(seattleCenter);
 console.log(capitolHill);
 console.log(alki);
+
+var table_headers = ['', 'col1', 'col2', 'col3', 'col4'];
+
+var row1 = [1,2,3,4];
+var row2 = [4,5,6,7];
+var row3 = [5, 4, 3, 2];
+
+var table_el = document.getElementById('nums-table');
+var table_row_el = document.createElement('tr');
+
+var table_data_el = document.createElement('td');
+table_data_el.textContent = 1;
+table_row_el.appendChild(table_data_el);
+
+table_el.appendChild(table_row_el);
