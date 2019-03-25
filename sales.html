@@ -9,7 +9,25 @@
 <body>
     
     <section id="stores" ></section>
-    <table id="nums-table"></table>
+    <table border = "2px" id="nums-table"></table>
+<form id = "locationAdder">
+<fieldset>
+    <legend>Add new location?</legend>
+
+    <label for = "storeName">Location name?</label>
+    <input type = "text" name = "storeName" required><br>
+
+    <label for = "minimumCustomers">Minimum amount of customers?</label>
+    <input type = "number" name = "minimumCustomers" required><br>
+
+    <label for = "maximumCustomers">Maximum amount of customers?</label>
+    <input type = "number" name = "maximumCustomers" required><br>
+
+    <label for = "avgCookiesPerCustomer">Average cookies per customer?</label>
+    <input type = "number" name = "avgCookiesPerCustomer" required><br>
+    <input type = "submit">
+</fieldset>
+</form>
 </body>
 <script src="app.js"></script>
 
